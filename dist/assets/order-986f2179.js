@@ -1,0 +1,1 @@
+import{y as e}from"./index-16e70b89.js";function n(r){return e.post("/saveOrder",r)}function a(r){return e.get("/order",{params:r})}function o(r){return e.get(`/order/${r}`)}function c(r){return e.put(`/order/${r}/cancel`)}function u(r){return e.put(`/order/${r}/finish`)}function s(r){return e.get("/paySuccess",{params:r})}export{o as a,c as b,n as c,u as d,a as g,s as p};

@@ -1,0 +1,1 @@
+import{I as r}from"./_plugin-vue_export-helper-bbba385e.js";const c={to:[String,Object],url:String,replace:Boolean};function s({to:e,url:o,replace:t,$router:n}){e&&n?n[t?"replace":"push"](e):o&&(t?location.replace(o):location.href=o)}function i(){const e=r().proxy;return()=>s(e)}export{s as a,c as r,i as u};
