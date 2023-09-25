@@ -1,0 +1,1424 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>首页</title>
+	<style>
+		body{
+			width: 100%;
+			margin: 0 auto;
+		}
+		header{
+			width: 1190px;
+			height: 90px;
+			margin: 0 auto;
+			background-color: antiquewhite;
+		}
+		.box{
+			width: 1190px;
+			height: 90px;
+/*			margin: 0 auto;*/
+		}
+		.taobao1{
+			width: 190px;
+			
+			float: left;
+			text-align: center;
+			margin-top: 13px
+		}
+		.search0{
+			width: 600px;
+			float: left;
+			margin-left: 100px;
+		}
+		.search{
+			width:560px;
+		}
+		.search .myform input{
+			height: 40px;
+			width: 550px;
+			border: 1px solid #B54310;
+			border-radius: 40px;
+			margin-top: 0px;
+			float: left;
+			
+			
+		}
+		.ervma{
+			width: 75px;
+/*			height: 90px;*/
+		
+			float: left;
+			margin-left: 100px;
+/*			border-radius: 10px;*/
+			text-align: center;
+			background: white;
+			margin-top: 4px;
+			
+		}
+		.ervma img{
+			width: 62px;
+			height: 62px;
+			float: left;
+/*
+			position: absolute;
+			top:35px;
+*/
+			margin-left: 6px;
+			
+		}
+		.ervma2 span{
+			color: #B54310;
+			text-align: center;
+			font-size: 10px;
+			
+		}
+		.daohangtiao{
+/*			clear: both;*/
+			width: 600px;
+			clear: both;
+			margin-top: 0px;
+			
+/*			margin-left: 190px;*/
+/*
+			position: absolute;
+			top:70px;
+*/
+			
+			
+/*
+			position: absolute;
+			left: 10px
+*/
+		}
+		.daohangtiao a{
+			color: black;
+			text-decoration: none;
+			font-size: 8px;
+			
+		}
+		.daohangtiao a:hover{
+			color:#FF6200;
+		}
+		
+		//paraphy
+		main{
+			width: 1190px;
+			margin: 0 auto;
+/*			background-color: grey;*/
+		}
+		section{
+			
+			width: 1190px;
+			background-color:antiquewhite;
+			opacity: 0.8;
+			margin: 0 auto;
+			border-radius: 10px;
+		}
+		.nav{
+			
+			width: 1190px;
+/*			height: 45px;*/
+/*			margin: 0 auto;*/
+			display: inline-block;
+		}
+		.first{
+			color:#FF6200;
+			width: 190px;
+			height: 45px;
+/*			position:absolute;*/
+/*			left:40px;*/
+			text-align: center;
+			line-height: 45px;
+			float: left;
+/*			margin: 0 auto;*/
+			margin-top: 10px;
+			
+		}
+		.second{
+			float: left;
+			width: 218px;
+			height: 29px;
+			line-height: 29px;
+			text-align: center;
+			margin-top: 18px;
+			margin-left: 100px;
+		}
+		.second a{
+			text-decoration: none;
+		}
+		.second #second1:link{
+			color: #ff0036;
+		}
+		.second #second1:hover{
+			color:#FF6200;
+		}
+		.second #second2{
+			margin:0px 25px;
+		}
+		.second #second2:link{
+			color: #ff0036;
+		}
+		.second #second2:hover{
+			color:#FF6200;
+		}
+		.second #second3:link{
+			color: #33c900;
+		}
+		.second #second3:hover{
+			color:#FF6200;
+		}
+		.third #third1,#third2,#third3{
+			text-decoration: none;
+			color: black;
+			font-size: 10px;
+			opacity: 0.8;
+		}
+		.third{
+			float: left;
+			width: 230px;
+			height: 29px;
+			line-height: 29px;
+			text-align: center;
+			margin-top: 18px;
+			
+		}
+		.third #third2{
+			margin:0px 25px;
+		}
+		.third #third1:hover{
+			color:#FF6200;
+		}
+		.third #third2:hover{
+			color:#FF6200;
+		}
+		.third #third3:hover{
+			color:#FF6200;
+		}
+		.fourth{
+			float: left;
+			width: 300px;
+			height: 29px;
+			line-height: 29px;
+			text-align: center;
+			margin-top: 18px;
+			
+		}
+		.fourth #fourth1,#fourth2,#fourth3,#fourth4{
+			text-decoration: none;
+			color: black;
+			font-size: 10px;
+			opacity: 0.8;
+		}
+		.fourth #fourth1,#fourth2,#fourth3,#fourth4{
+			margin:0px 10px;
+		}
+		.fourth a:link{
+			color:black;
+		}
+		.fourth #fourth1:hover{
+			color:#FF6200;
+		}
+		.fourth #fourth2:hover{
+			color:#FF6200;
+		}
+		.fourth #fourth3:hover{
+			color:#FF6200;
+		}
+		.fourth #fourth4:hover{
+			color:#FF6200;
+		}
+		.fifth0{
+			
+			float: left;
+		}
+		aside{
+/*			width: 212px;*/
+			width:212px;
+			height: 550px;
+			float: left;
+			
+/*			position: relative;*/
+			
+		}
+		.fifth{
+			width: 150px;
+			float: left;
+			margin-left: 40px;
+		}
+		.fifth .fifth1{
+			
+			margin-top: 14px;
+		}
+		.fifth .fifth1 a{
+			text-decoration: none;
+			color: gray;
+			font-size: 8px;
+			
+		}
+		.fifth .fifth1 a:hover{
+			color:#FF6200; 
+			
+		}
+		.sixth{
+			width: 520px;
+			float: left;
+			margin-top: 20px;
+			height: 280px;
+/*			position: relative;*/
+/*			left: 30px;*/
+			
+		}
+		.sixth img{
+			border-radius: 10px;
+			
+		}
+		.inner{
+			width: 520px;
+			margin-top: 10px;
+			float: left;
+		}
+		.inner2{
+			width: 150px;
+			float: left;
+			
+		}
+		.inner3{
+			float: left;
+			height: 44px;
+			font-size: 20px;
+			line-height: 44px;
+			color: gray;
+		}
+		.mod{
+			width: 520px;
+			float: left;
+		}
+		.mod img{
+			width:250px;
+			height: 180px;
+			border-radius: 10px;
+		}
+		.mod1{
+			width: 270px;
+			float: left;
+		}
+		.mod2{
+			float: left;
+		}
+		.bannernum1{
+			width: 520px;
+			height: 550px;
+			float: left;
+			background: white;
+		}
+		.loginnum1{
+			background: antiquewhite ;
+			width: 384px;
+
+			float: left;
+			margin-left: 40px;
+			margin-top: 20px;
+		}
+		.login{
+			width: 384px;
+			float: left;
+			text-align: center;
+			margin-top: 20px;
+		}
+		.login img{
+			border-radius: 30px;
+		}
+		.nihao{
+			width: 384px;
+			float: left;
+			text-align: center;
+			font-size: 8px
+		}
+		.login1{
+			width: 382px;
+			float: left;
+			
+		}
+		.myform .submit1{
+			padding: 8px 40px;
+			background: #FF6200;
+			border: none;
+			border-radius: 5px;
+			color: aliceblue;
+			cursor: pointer;
+			
+		}
+		.myform .submit1:hover{
+			background: red;
+		}
+		.myform{
+			margin-top: 20px;
+			text-align: center;
+		}
+		.login2{
+			float: left;
+			width: 360px;
+			margin-left: 13px;
+			margin-top: 30px;
+			
+		}
+		.login2 img{
+			border-radius: 10px;
+		}
+		.seventh{
+			float: left;
+			margin-left: 10px;
+		}
+		.eighth{
+			float: left;
+			height: 550px;
+			margin-left: 20px;
+		}
+		.banner_box{
+			clear: both;
+			width: 1190px;
+			height: 560px;
+			margin: 0 auto;
+			background: white;
+			border-radius: 10px;
+		}
+		.login3{
+			width: 370px;
+			float: left;
+			margin-left: 15px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		.gonggao{
+			width: 40px;
+			float: left;	
+		}
+		.gonggao1{
+			float: left;
+			
+		}
+		.gonggao1 span{
+			font-size: 8px;
+		}
+		.gonggao span{
+			font-size: 8px;
+		}
+		.xinwen{
+			width: 370px;
+			float: left;
+			margin-left: 14px;
+		}
+		.xinwen1{
+			width: 32px;
+			height: 18px;
+			float: left;
+			background-color: rgba(255,174,174,.2);
+			opacity: .8;
+			font-size: 8px;
+			text-align: center;
+			
+		}
+		.xinwen2{
+			float: left;
+			width: 248px;
+		}
+		.xinwen2 p{
+			margin: 0px;
+			padding: 0px;
+			font-size: 8px;
+		}
+		
+		.xinwen3{
+			clear: both;
+			float: left;
+			width: 32px;
+			height: 18px;
+			background-color: rgba(255,174,174,.2);
+			opacity: .8;
+			font-size: 8px;
+			text-align: center;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			
+		}
+		.xinwen4{
+			float: left;
+			width: 260px;
+			margin-top: 10px;
+		}
+		.xinwen4 p{
+			margin: 0px;
+			padding: 0px;
+			font-size: 8px;
+		}
+		.xinwen5{
+			clear: both;
+			float: left;
+			width: 32px;
+			height: 18px;
+			background-color: rgba(255,174,174,.2);
+			opacity: .8;
+			font-size: 8px;
+			text-align: center;
+			
+		}
+		.xinwen6{
+			float: left;
+			width: 260px;
+		}
+		.xinwen6 p{
+			margin: 0px;
+			padding: 0px;
+			font-size: 8px;
+		}
+		.none{
+			width: 370px;
+			
+			float: left;
+			
+		}
+		.none img{
+			width: 360px;
+			height: 80px;
+			border-radius: 10px;
+		}
+		.box4{
+			clear: both;
+			width: 1190px;
+			float: left;
+			background-color:antiquewhite;
+			
+		}
+		.goods3 img:hover{
+			transform: scale(1.1);
+			transition: all 1s;
+		}
+		.goods0{
+			width: 1190px;
+			margin: 0 auto;
+		}
+		.goods{
+			float: left;
+			width: 1190px;
+		}
+		.goods1{
+			float: left;
+			width: 70px;
+			margin-left: 30px;	
+		}
+		h4{
+			width: 70px;
+			float: left;
+		}
+		.good2{
+			float: left;
+			height: 60px;
+			line-height: 60px;
+		}
+		.good2 img{
+			margin-top: 20px;
+		}
+		.goods3{
+			clear: both;
+			float: left;
+			margin-left: 30px;
+			overflow: hidden;
+		}
+		.goods4{
+			float: left;
+			margin-left: 60px;
+		}
+		.goods4 img{
+			border-radius: 10px;
+		}
+		.goods3 img{
+			border-radius: 10px;
+		}
+		.goodstext{
+			clear: both;
+			width: 1190px;
+			float: left;
+		}
+		.goodstext .font1{
+			float: left;
+			width: 200px;
+			text-align: center;
+			margin-left: 30px;
+		}
+		.goodstext .font2{
+			float: left;
+			width: 200px;
+			text-align: center;
+			margin-left: 50px;
+		}
+		.cainixihuanfirst{
+			float: left;
+			background-color: antiquewhite;
+		}
+		.cainixihuan{
+			clear: both;
+			float: left;
+			width: 1190px;
+			
+		}
+		.cainixihuan1{
+			float: left;
+			margin-left: 30px;
+		}
+		.cainixihuan2{
+			float: left;
+			width: 65px;
+			height: 60px;
+		}
+		.cainixihuan2 img{
+			margin-top: 20px;
+			
+		}
+		.cainixihuan01{
+			float: left;
+			margin-left: 30px
+		}
+		.cainixihuan02{
+			float: left;
+			width: 220px;
+			height: 300px;
+			margin-right: 12px;
+		}
+		.cainixihuan02 img{
+			border-radius: 10px;
+			
+		}
+		.end{
+			clear: both;
+			width: 1200px;
+			height: 50px;
+			position: relative;
+			background-color: aliceblue;
+		}
+		.end p{
+			text-align: center;
+			line-height: 50px;
+			opacity: 0.5;
+		}
+		.end1{
+			width: 1190px;
+			height: 100px;
+			position: relative;
+		}
+		.end1 img{
+			position: relative;
+		}
+		
+		
+		div p a{
+					text-decoration: none;
+					
+				}
+				a:link{
+					color:gray;
+				}
+				a:hover{
+					color: red;
+				}
+				em{
+					margin-left: 10px;
+				}
+				p span a{
+					margin-left: 3px;
+					margin-right: 3px;
+					text-decoration: none;
+					color: gray;
+				}
+				p span{
+					color:gray;
+				}
+				.li{
+					width:1200px;
+					height: 1px;
+					background-color: #808080;
+					
+				}
+				footer{
+					width: 1200px;
+					height: 600px;
+					margin: 0 auto;
+				}
+				
+				.tou2{
+					width: 1200px;
+					height: 86px;
+					margin: 0 auto;
+				}
+				.tou2 img{
+					width: 120px;
+					height: 86px;
+					
+				}
+		.footer1{
+			float: left;
+			width: 1190;
+			height: 400px;
+			position: relative;
+			background-color: aliceblue;
+			margin: 0 auto;
+			
+		}
+		
+	</style>
+</head>
+
+<body>
+	<header>
+		<div class="box">
+			<div class="taobao1">
+				<a href="#"><img src="images/taobao1.png"></a>
+			</div>
+			<div class="search0">
+				<div class="search">
+					<form class="myform">
+						<input name="search" type="text" size="" placeholder="搜索">
+					</form>
+				</div>	
+					<div class="daohangtiao">
+						<a href="#">新款连衣裙</a>
+						<a href="#">四件套</a>
+						<a href="#">潮流T恤</a>
+						<a href="#">时尚女鞋 </a>
+						<a href="#">短裤</a>
+						<a href="#">半身裙</a>
+						<a href="#">男士外套</a>
+						<a href="#">墙纸</a>
+						<a href="#">行车记录仪</a>
+						<a href="#">新款男鞋</a>
+						<a href="#">耳机</a>
+						<a href="#">时尚女包</a>
+						<a href="#">沙发</a>
+					</div>
+			
+				
+			</div>
+				<a href="#">
+					
+					<div class="ervma">
+						<div class="ervma2"><span>下载淘宝</span></div>
+							<img src="images/下载.png">
+					</div>
+				</a>
+			
+		</div>
+	</header>
+	<main>
+		<section>
+		<div class="nav">
+			 <div class="first">
+				 <b>主题市场</b>
+			</div>
+			<div class="second">
+				<a href="#" id="second1"><b>天猫</b></a>
+				<a href="#" id="second2"><b>聚划算</b></a>
+				<a href="#" id="second3"><b>天猫市场</b></a>
+			
+			</div>
+			
+			<div class="third">
+				|
+				<a href="#" id="third1">司法拍卖</a>
+				<a href="#" id="third2">飞猪旅行</a>
+				<a href="#" id="third3">天天特卖</a>
+			</div>
+			
+			<div class="fourth">
+				|
+				<a href="#" id="fourth1">造点新货</a>
+				<a href="#" id="fourth2">苏宁易购</a>
+				<a href="#" id="fourth3">淘宝心选</a>
+				<a href="#" id="fourth4">智能生活</a>
+			</div>
+		</div>
+	
+		</section>
+		
+	</main>
+<div class="banner_box">
+	<div class="fifth0">
+	
+		<aside>
+			<div class="fifth">
+				<div class="fifth1">
+					<a href="#"><span>女装 /</span></a>
+					<a href="#"><span>内衣 /</span></a>
+					<a href="#"><span>家具</span></a>
+				</div>
+				<div class="fifth1">
+					<a href="#"><span>女鞋 /</span></a>
+					<a href="#"><span>男鞋 /</span></a>
+					<a href="#"><span>箱包</span></a>
+				</div>
+				
+				<div class="fifth1">
+					<a href="#"><span>母婴 /</span></a>
+					<a href="#"><span>童装 /</span></a>
+					<a href="#"><span>玩具</span></a>
+				</div>
+				
+				<div class="fifth1">
+					<a href="#"><span>男装 /</span></a>
+					<a href="#"><span>运动户外</span></a>
+				</div>
+				<div class="fifth1">
+					<a href="#"><span>美妆 /</span></a>
+					<a href="#"><span>彩妆 /</span></a>
+					<a href="#"><span>个护</span></a>
+				</div>
+				
+				<div class="fifth1">
+					<a href="#"><span>手机 /</span></a>
+					<a href="#"><span>数码 /</span></a>
+					<a href="#"><span>企业</span></a>
+				</div>
+				<div class="fifth1">
+					<a href="#"><span>大家电 /</span></a>
+					<a href="#"><span>生活电器</span></a>
+				</div> 
+				<div class="fifth1">
+					<a href="#"><span>零食 /</span></a>
+					<a href="#"><span>生鲜 /</span></a>
+					<a href="#"><span>茶酒</span></a>
+				</div>
+				<div class="fifth1">
+					<a href="#"><span>厨具 /</span></a>
+					<a href="#"><span>收纳 /</span></a>
+					<a href="#"><span>清洁</span></a>
+				</div>
+				<div class="fifth1">
+					<a href="#"><span>家纺 /</span></a>
+					<a href="#"><span>家饰 /</span></a>
+					<a href="#"><span>鲜花</span></a>
+				</div>
+				<div class="fifth1">
+					<a href="#"><span>图书音像 /</span></a>
+					<a href="#"><span>文具</span></a>
+					
+				</div>
+				<div class="fifth1">
+					<a href="#"><span>医药保健 /</span></a>
+					<a href="#"><span>进口</span></a>
+				</div>
+				<div class="fifth1">
+					<a href="#"><span>汽车 /</span></a>
+					<a href="#"><span>二手车 /</span></a>
+					<a href="#"><span>用品</span></a>
+				</div>
+				<div class="fifth1">
+					<a href="#"><span>房产 /</span></a>
+					<a href="#"><span>装修家具 /</span></a>
+					<a href="#"><span>建材</span></a>
+				</div>
+				<div class="fifth1">
+					<a href="#"><span>手表 /</span></a>
+					<a href="#"><span>眼镜 /</span></a>
+					<a href="#"><span>珠宝饰品</span></a>
+				</div>
+			</div>
+		</aside>
+	</div>
+	<div class="seventh">
+		<section class="bannernum1">
+			<div class="sixth">
+				<img src="images/banner4.jpg">
+			</div>
+
+			<div class="inner">
+	<!--			<em>理想生活上天猫</em>-->
+				<div class="inner2"><img src="images/tiannao.png"></div>
+				<div class="inner3"><em>理想生活上天猫</em></div>
+			</div>
+
+			<div class="mod">
+				<div class="mod1">
+					<img src="images/banner7.jpg">
+				</div>
+				<div class="mod2">
+					<img src="images/banner.jpg">
+				</div>
+			</div>
+		</section>
+	</div>
+	<div class="eighth">
+		<section class="loginnum1">
+			<div class="login">
+					<img src="images/login.jpg">
+				
+			</div>
+				<div class="nihao">
+					<span><b>hi 你好</b></span>
+				</div>
+			<div class="login1">
+					<form action="">
+						<div class="myform">
+				<a href="login.html"><input name="button" type="button" value="登录" class="submit1"></a>
+				<a href="login2.html"><input name="submit" type="button" value="注册" class="submit1"></a>
+							<input name="submit" type="button" value="开店" class="submit1">
+							
+						</div>
+					</form>
+			</div>
+			
+			<div class="login2">
+					<img src="images/login1.png">
+			</div>
+			
+				<div class="login3">
+					<div class="gonggao">
+						<span><b>公告</b></span>
+					</div>
+					<div class="gonggao1">
+						<span>新鲜事都在这里~</span>
+					</div>
+			
+				</div>
+			<div class="xinwen">
+				<div class="xinwen1">
+					热点
+				</div>
+				<div class="xinwen2">
+					<p>【规则】2021年淘宝11.11招商规则</p>
+				</div>
+				
+				<div class="xinwen3">
+					热点
+				</div>
+				<div class="xinwen4">
+					<p>热点关于推进“清朗”账号乱象专项整治的通知</p>
+				</div>
+				
+				<div class="xinwen5">
+					热点
+				</div>
+				<div class="xinwen6">
+					<p>《淘宝平台违禁信息管理规则》规则变更通知</p>
+				</div>
+				
+				<div class="none">
+						<img src="./images/none.jpg"/>
+					
+				</div>
+			</div>
+			
+		</section>
+	</div>
+</div>
+<section class="goods0">
+	<div class="goods">
+		<div class="goods1">
+			<h4>有好货</h4>
+			
+		</div>
+		<div class="good2">
+				<img src="images/goods.png">
+		</div>
+		
+	</div>
+	<div class="box4">
+			<div class="goods3">
+					<img src="images/goods1.jpg">
+				
+			</div>
+			<div class="goods4">
+					<img src="images/goods2.jpg">
+			</div>
+		<div class="goods4">
+					<img src="images/goods3.jpg">
+			</div>
+		<div class="goods4">
+					<img src="images/goods4.jpg">
+			</div>
+		<div class="goods4">
+					<img src="images/goods5.jpg">
+			</div>
+	</div>
+	<div class="goodstext">
+		<a href="二级.html" style="text-decoration: none;">
+			<div class="font1">
+			同车同伴车载头枕腰靠<br />
+			一路行车，如果是不适相伴</a>
+		</div>
+		<div class="font1">
+			SINOMAX海绵床垫<br />
+			来自香港的品牌——赛诺，
+		</div>
+		<div class="font1">
+			好孩子 儿童安全座椅<br />
+			侧撞防护系统，搭配宽大的
+		</div>
+		<div class="font2">
+			只需翻转一下，就能安排你<br />
+			用这个计时器，做饭学习,
+		</div>
+		<div class="font2">
+			鬼塚虎 麂皮材质运动鞋<br />
+			此款跑鞋采用了麂皮材质打
+		</div>
+	
+	</div>
+	
+	<div class="cainixihuan">
+		<div class="cainixihuan1">
+			<h4>猜你喜欢</h4>
+		</div>
+		<div class="cainixihuan2">
+			<img src="images/cainixihuan.png">
+		</div>
+	</div>
+	
+	<div class="cainixihuanfirst">
+	<div class="cainixihuan01">
+		<div class="cainixihuan02">
+			<div>
+			<img src="images/cainixihuan1.jpg">
+				</div>
+			<p style=" width: 220px;height: 40px; overflow: hidden;">日本不锈钢切蛋器多功能分蛋器花式皮蛋开蛋器松花蛋鸡蛋切片神器</p>
+			<span style="color: #FF6400"><b>$16.5</b></span>
+		</div>
+		
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan2.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">水晶玻璃糖缸方形糖果罐 干果罐储物罐零食罐 首饰盒钥匙罐调料罐</p>
+			<span style="color: #FF6400"><b>$49</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan3.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">骨瓷筷架陶瓷筷座筷子托可放公筷2双筷子筷子架餐桌餐厅实用筷枕</p>
+			<span style="color: #FF6400"><b>$11.8</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan4.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">唐山产地骨瓷杯水杯家用带盖勺可爱女咖啡杯好看的马克杯陶瓷杯子</p>
+			<span style="color: #FF6400"><b>$19.5</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan5.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">韩式公主风田园四件套北欧风沁田纯棉碎花床品1.2m三件套TLPM305</p>
+			<span style="color: #FF6400"><b>$149</b></span>
+		</div>
+	</div>
+	
+		<div class="cainixihuan01">
+		<div class="cainixihuan02">
+			<div>
+			<img src="images/cainixihuan6.jpg">
+				</div>
+			<p style=" width: 220px;height: 40px; overflow: hidden;">创意日式筷架家用筷托陶瓷筷枕韩式筷子托架筷子架拖筷子垫汤匙托</p>
+			<span style="color: #FF6400"><b>$33</b></span>
+		</div>
+		
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan7.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">【天天特价】不锈钢密孔沥水篮沥水盆洗菜篮洗米盆水果篮水果盘</p>
+			<span style="color: #FF6400"><b>$45</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan8.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">置物架不锈钢色储物架厨房5层落地免打孔果蔬菜碗架卧室多层架子</p>
+			<span style="color: #FF6400"><b>$105.57</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan9.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">韩国棉麻围巾女春秋波西米亚民族风青花瓷春秋薄款丝巾披肩沙滩巾</p>
+			<span style="color: #FF6400"><b>$16.8</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan10.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">透明玻璃碗水果沙拉碗家用吃饭好看碗大沙拉碗碟碗套装学生甜品碗</p>
+			<span style="color: #FF6400"><b>$5.8</b></span>
+		</div>
+	</div>
+		
+		<div class="cainixihuan01">
+		<div class="cainixihuan02">
+			<div>
+			<img src="images/cainixihuan11.jpg">
+				</div>
+			<p style=" width: 220px;height: 40px; overflow: hidden;">创意杯子陶瓷马克杯大容量色釉浮雕咖啡牛奶杯汤杯情侣对杯早餐杯</p>
+			<span style="color: #FF6400"><b>$12.8</b></span>
+		</div>
+		
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan12.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">居家家 多功能挖水果工具切果肉分离器 创意厨房小用品神器去籽器</p>
+			<span style="color: #FF6400"><b>$6.9</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan13.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">妙HOME玻璃密封罐相思木盖储物咖啡罐杂粮罐茶叶罐意大利面收纳罐</p>
+			<span style="color: #FF6400"><b>$12.9</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan14.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">卡通帆布防水杯袋保温杯袋儿童可爱大号水壶手提袋户外通用收纳袋</p>
+			<span style="color: #FF6400"><b>$12.5</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan15.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">日本万古烧土锅专用蒸格 多用陶瓷蒸盘蒸屉 蒸菜专用篦子 蒸野菜</p>
+			<span style="color: #FF6400"><b>$13.5</b></span>
+		</div>
+	</div>
+		
+		<div class="cainixihuan01">
+		<div class="cainixihuan02">
+			<div>
+			<img src="images/cainixihuan11.jpg">
+				</div>
+			<p style=" width: 220px;height: 40px; overflow: hidden;">创意杯子陶瓷马克杯大容量色釉浮雕咖啡牛奶杯汤杯情侣对杯早餐杯</p>
+			<span style="color: #FF6400"><b>$12.8</b></span>
+		</div>
+		
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan12.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">居家家 多功能挖水果工具切果肉分离器 创意厨房小用品神器去籽器</p>
+			<span style="color: #FF6400"><b>$6.9</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan13.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">妙HOME玻璃密封罐相思木盖储物咖啡罐杂粮罐茶叶罐意大利面收纳罐</p>
+			<span style="color: #FF6400"><b>$12.9</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan14.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">卡通帆布防水杯袋保温杯袋儿童可爱大号水壶手提袋户外通用收纳袋</p>
+			<span style="color: #FF6400"><b>$12.5</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan15.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">日本万古烧土锅专用蒸格 多用陶瓷蒸盘蒸屉 蒸菜专用篦子 蒸野菜</p>
+			<span style="color: #FF6400"><b>$13.5</b></span>
+		</div>
+	</div>
+		
+		<div class="cainixihuan01">
+		<div class="cainixihuan02">
+			<div>
+			<img src="images/cainixihuan1.jpg">
+				</div>
+			<p style=" width: 220px;height: 40px; overflow: hidden;">日本不锈钢切蛋器多功能分蛋器花式皮蛋开蛋器松花蛋鸡蛋切片神器</p>
+			<span style="color: #FF6400"><b>$16.5</b></span>
+		</div>
+		
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan2.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">水晶玻璃糖缸方形糖果罐 干果罐储物罐零食罐 首饰盒钥匙罐调料罐</p>
+			<span style="color: #FF6400"><b>$49</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan3.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">骨瓷筷架陶瓷筷座筷子托可放公筷2双筷子筷子架餐桌餐厅实用筷枕</p>
+			<span style="color: #FF6400"><b>$11.8</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan4.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">唐山产地骨瓷杯水杯家用带盖勺可爱女咖啡杯好看的马克杯陶瓷杯子</p>
+			<span style="color: #FF6400"><b>$19.5</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan5.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">韩式公主风田园四件套北欧风沁田纯棉碎花床品1.2m三件套TLPM305</p>
+			<span style="color: #FF6400"><b>$149</b></span>
+		</div>
+	</div>
+	
+		<div class="cainixihuan01">
+		<div class="cainixihuan02">
+			<div>
+			<img src="images/cainixihuan6.jpg">
+				</div>
+			<p style=" width: 220px;height: 40px; overflow: hidden;">创意日式筷架家用筷托陶瓷筷枕韩式筷子托架筷子架拖筷子垫汤匙托</p>
+			<span style="color: #FF6400"><b>$33</b></span>
+		</div>
+		
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan7.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">【天天特价】不锈钢密孔沥水篮沥水盆洗菜篮洗米盆水果篮水果盘</p>
+			<span style="color: #FF6400"><b>$45</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan8.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">置物架不锈钢色储物架厨房5层落地免打孔果蔬菜碗架卧室多层架子</p>
+			<span style="color: #FF6400"><b>$105.57</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan9.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">韩国棉麻围巾女春秋波西米亚民族风青花瓷春秋薄款丝巾披肩沙滩巾</p>
+			<span style="color: #FF6400"><b>$16.8</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan10.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">透明玻璃碗水果沙拉碗家用吃饭好看碗大沙拉碗碟碗套装学生甜品碗</p>
+			<span style="color: #FF6400"><b>$5.8</b></span>
+		</div>
+	</div>
+		
+		<div class="cainixihuan01">
+		<div class="cainixihuan02">
+			<div>
+			<img src="images/cainixihuan11.jpg">
+				</div>
+			<p style=" width: 220px;height: 40px; overflow: hidden;">创意杯子陶瓷马克杯大容量色釉浮雕咖啡牛奶杯汤杯情侣对杯早餐杯</p>
+			<span style="color: #FF6400"><b>$12.8</b></span>
+		</div>
+		
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan12.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">居家家 多功能挖水果工具切果肉分离器 创意厨房小用品神器去籽器</p>
+			<span style="color: #FF6400"><b>$6.9</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan13.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">妙HOME玻璃密封罐相思木盖储物咖啡罐杂粮罐茶叶罐意大利面收纳罐</p>
+			<span style="color: #FF6400"><b>$12.9</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan14.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">卡通帆布防水杯袋保温杯袋儿童可爱大号水壶手提袋户外通用收纳袋</p>
+			<span style="color: #FF6400"><b>$12.5</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan15.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">日本万古烧土锅专用蒸格 多用陶瓷蒸盘蒸屉 蒸菜专用篦子 蒸野菜</p>
+			<span style="color: #FF6400"><b>$13.5</b></span>
+		</div>
+	</div>
+		
+		<div class="cainixihuan01">
+		<div class="cainixihuan02">
+			<div>
+			<img src="images/cainixihuan1.jpg">
+				</div>
+			<p style=" width: 220px;height: 40px; overflow: hidden;">日本不锈钢切蛋器多功能分蛋器花式皮蛋开蛋器松花蛋鸡蛋切片神器</p>
+			<span style="color: #FF6400"><b>$16.5</b></span>
+		</div>
+		
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan2.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">水晶玻璃糖缸方形糖果罐 干果罐储物罐零食罐 首饰盒钥匙罐调料罐</p>
+			<span style="color: #FF6400"><b>$49</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan3.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">骨瓷筷架陶瓷筷座筷子托可放公筷2双筷子筷子架餐桌餐厅实用筷枕</p>
+			<span style="color: #FF6400"><b>$11.8</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan4.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">唐山产地骨瓷杯水杯家用带盖勺可爱女咖啡杯好看的马克杯陶瓷杯子</p>
+			<span style="color: #FF6400"><b>$19.5</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan5.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">韩式公主风田园四件套北欧风沁田纯棉碎花床品1.2m三件套TLPM305</p>
+			<span style="color: #FF6400"><b>$149</b></span>
+		</div>
+	</div>
+	
+		<div class="cainixihuan01">
+		<div class="cainixihuan02">
+			<div>
+			<img src="images/cainixihuan6.jpg">
+				</div>
+			<p style=" width: 220px;height: 40px; overflow: hidden;">创意日式筷架家用筷托陶瓷筷枕韩式筷子托架筷子架拖筷子垫汤匙托</p>
+			<span style="color: #FF6400"><b>$33</b></span>
+		</div>
+		
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan7.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">【天天特价】不锈钢密孔沥水篮沥水盆洗菜篮洗米盆水果篮水果盘</p>
+			<span style="color: #FF6400"><b>$45</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan8.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">置物架不锈钢色储物架厨房5层落地免打孔果蔬菜碗架卧室多层架子</p>
+			<span style="color: #FF6400"><b>$105.57</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan9.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">韩国棉麻围巾女春秋波西米亚民族风青花瓷春秋薄款丝巾披肩沙滩巾</p>
+			<span style="color: #FF6400"><b>$16.8</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan10.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">透明玻璃碗水果沙拉碗家用吃饭好看碗大沙拉碗碟碗套装学生甜品碗</p>
+			<span style="color: #FF6400"><b>$5.8</b></span>
+		</div>
+	</div>
+		
+		<div class="cainixihuan01">
+		<div class="cainixihuan02">
+			<div>
+			<img src="images/cainixihuan11.jpg">
+				</div>
+			<p style=" width: 220px;height: 40px; overflow: hidden;">创意杯子陶瓷马克杯大容量色釉浮雕咖啡牛奶杯汤杯情侣对杯早餐杯</p>
+			<span style="color: #FF6400"><b>$12.8</b></span>
+		</div>
+		
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan12.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">居家家 多功能挖水果工具切果肉分离器 创意厨房小用品神器去籽器</p>
+			<span style="color: #FF6400"><b>$6.9</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan13.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">妙HOME玻璃密封罐相思木盖储物咖啡罐杂粮罐茶叶罐意大利面收纳罐</p>
+			<span style="color: #FF6400"><b>$12.9</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan14.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">卡通帆布防水杯袋保温杯袋儿童可爱大号水壶手提袋户外通用收纳袋</p>
+			<span style="color: #FF6400"><b>$12.5</b></span>
+		</div>
+		<div class="cainixihuan02">
+			<img src="images/cainixihuan15.jpg">
+			<p style=" width: 220px;height: 40px; overflow: hidden;">日本万古烧土锅专用蒸格 多用陶瓷蒸盘蒸屉 蒸菜专用篦子 蒸野菜</p>
+			<span style="color: #FF6400"><b>$13.5</b></span>
+		</div>
+	</div>
+
+</div>
+	
+	<div class="end">
+		<p>------END------</p>
+		
+	</div>
+
+	
+	<div class="footer1">
+	<footer>
+			<div class="li"></div>
+			<div>
+				<p>
+					<a href="#" >阿里巴巴集团</a>
+					<b>|</b>
+					<a href="#" >阿里巴巴国际站</a>
+					<b>|</b>
+					<a href="#" >阿里巴巴中国站</a>
+					<b>|</b>
+					<a href="#" >全球速卖通</a>
+					<b>|</b>
+					<a href="#" >淘宝</a>
+					<b>|</b>
+					<a href="#" >天猫</a>
+					<b>|</b>
+					<a href="#" >聚划算</a>
+					<b>|</b>
+					<a href="#" >聚淘</a>
+					<b>|</b>
+					<a href="#" >阿里妈妈</a>
+					<b>|</b>
+					<a href="#" >飞猪</a>
+					<b>|</b>
+					<a href="#" >虾米</a>
+					<b>|</b>
+					<a href="#" >阿里云计算</a>
+					<b>|</b>
+					<a href="#" >云OS</a>
+					<b>|</b>
+					<a href="#" >万网</a>
+					<b>|</b>
+					<a href="#" >支付宝</a>
+					<b>|</b>
+					<a href="#" >来往</a>
+					<b>|</b>	
+				</p>
+				<div class="li"></div>
+			</div>
+			<p>
+				<span>
+					<a href="#" >关于淘宝</a>
+				</span>
+				<span>
+					<a href="#" class="forth">合作伙伴</a>
+				</span>
+				<span>
+					<a href="#" class="forth">营销中心</a>
+				</span>
+				<span>
+					<a href="#" class="forth">廉正举报</a>
+				</span>
+				<span>
+					<a href="#" class="forth">联系客服</a>
+				</span>
+				<span>
+					<a href="#" class="forth">开放平台</a>
+				</span>
+				<span>
+					<a href="#" class="forth">诚征英才</a>
+				</span>
+				<span>
+					<a href="#" class="forth">联系我们</a>
+				</span>
+				<span>
+					<a href="#" class="forth">网站地图</a>
+				</span>
+				<span>
+					<a href="#" class="forth">隐私权政策</a>
+				</span>
+				<span>
+					<a href="#" class="forth">法律声明</a>
+				</span>
+				<span>
+					<a href="#">知识产权</a>
+				</span>
+				<b>|</b>
+				<em>© 2003-现在 Taobao.com 版权所有</em>
+				
+			</p>
+			<p>
+				<span>
+					<a>增值电信业务经营许可证：浙B2-20080224</a>
+				</span>
+				<b>|</b>
+				
+				<span>
+					<a>浙网文（2019）1033-086号</a>
+				</span>
+				<b>|</b>
+				<span>
+					<a>浙江省网络食品销售第三方平台提供者备案：浙网食A33010001</a>
+				</span>
+				
+				
+			</p>
+			<p>
+				<span>互联网药品信息服务资格证书（浙）-经营性-2018-0010
+				</span>
+				<b>|</b>
+				<span>短消息类服务接入代码使用证书：号【2016】00154-A01
+				</span>
+				<b>|</b>
+				<span>信息网络传播视听许可证：1109364号
+				</span>
+				<b>|</b>
+				<span>出版物网络交易平台服务经营备案号：新出发浙备字第002号
+				</span>
+			</p>
+			<p>
+				<span>浙公网安备 33010002000078号
+				</span>
+				<b>|</b>
+				<span>浙B2-20080224-1
+				</span>
+				<b>|</b>
+				<span>广播电视节目制作经营许可证（浙）字第01012号
+				</span>
+				<b>|</b>
+				<span>市场名称登记证：工商网市字3301004120号
+				</span>
+			</p>
+			<div>
+				<a href="#" ><img src="./images/12.jpg" style="width: 1190px;"></a>
+			</div>
+		</footer>
+	</div>
+		</section>
+</body>
+</html>
